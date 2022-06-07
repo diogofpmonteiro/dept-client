@@ -1,0 +1,12 @@
+.case-showcase-container {
+}
+
+.case-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.case-list-item {
+  width: 50%;
+}

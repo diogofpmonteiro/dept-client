@@ -1,0 +1,5 @@
+To start the JSON server run: `json-server --watch db.json` 
+
+Now if you go to http://localhost:3000/cases/, you'll see the endpoint result
+
+Original github repo for the json-server package: https://github.com/typicode/json-server 

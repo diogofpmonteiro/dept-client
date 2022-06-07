@@ -1,0 +1,33 @@
+.case-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 80px;
+  font-size: 1.5rem;
+}
+
+.case-img {
+}
+
+.case-company-name {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.view-case-btn {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  color: blue;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}

@@ -1,0 +1,41 @@
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-title {
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.form-input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-right: 30px;
+}
+
+.btn-container {
+  width: 100%;
+}
+
+.form-btn {
+  width: 130px;
+  height: fit-content;
+  padding: 15px;
+  background-color: blue;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+}

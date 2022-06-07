@@ -1,0 +1,140 @@
+{
+  "cases": [
+    {
+      "id": 1,
+      "imageURL": "",
+      "company": "Bol.com",
+      "title": "A Summer island in the Netherlands",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 2,
+      "imageURL": "",
+      "company": "Kempen",
+      "title": "Not some average banking website",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 3,
+      "imageURL": "",
+      "company": "Philips",
+      "title": "Beautiful design meets innovative technology",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 4,
+      "imageURL": "",
+      "company": "Gemeentemuseum",
+      "title": "A 100 years of Mandriaan & De Stijl",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 5,
+      "imageURL": "",
+      "company": "Florensis",
+      "title": "Rethinking the entire online ecosystem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 6,
+      "imageURL": "",
+      "company": "Be Lightning",
+      "title": "Delivering clarity on a global scale",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 7,
+      "imageURL": "",
+      "company": "TUI",
+      "title": "Swipe to find your next holiday destination",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 8,
+      "imageURL": "",
+      "company": "Chocomel",
+      "title": "A campaign for the limited edition letter packs",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 9,
+      "imageURL": "",
+      "company": "Microsoft",
+      "title": "Tapping into Ireland's unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 10,
+      "imageURL": "",
+      "company": "O'Neill",
+      "title": "Integrating existing content into O'Neills's new e-commerce platform",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "imageURL": ""
+    },
+    {
+      "id": 2,
+      "imageURL": ""
+    },
+    {
+      "id": 3,
+      "imageURL": ""
+    },
+    {
+      "id": 4,
+      "imageURL": ""
+    },
+    {
+      "id": 5,
+      "imageURL": ""
+    },
+    {
+      "id": 6,
+      "imageURL": ""
+    },
+    {
+      "id": 7,
+      "imageURL": ""
+    },
+    {
+      "id": 8,
+      "imageURL": ""
+    },
+    {
+      "id": 9,
+      "imageURL": ""
+    },
+    {
+      "id": 10,
+      "imageURL": ""
+    },
+    {
+      "id": 11,
+      "imageURL": ""
+    },
+    {
+      "id": 12,
+      "imageURL": ""
+    },
+    {
+      "id": 13,
+      "imageURL": ""
+    },
+    {
+      "id": 14,
+      "imageURL": ""
+    },
+    {
+      "id": 15,
+      "imageURL": ""
+    },
+    {
+      "id": 16,
+      "imageURL": ""
+    }
+  ]
+}
