@@ -5,7 +5,9 @@ const Footer = () => {
     <div className='footer-container'>
       <div className='top-half'>
         <ul className='footer-list'>
-          <li className='footer-list-title'>Dept</li>
+          <li className='footer-list-title'>
+            <img src='/images/DEPTWhite.png' alt='dept-logo-white' />
+          </li>
           <li className='footer-list-top-item'>Work</li>
           <li className='footer-list-top-item'>Services</li>
           <li className='footer-list-top-item'>Stories</li>
@@ -14,9 +16,15 @@ const Footer = () => {
           <li className='footer-list-top-item'>Contact</li>
         </ul>
         <ul className='footer-list'>
-          <li className='footer-list-top-item'>facebook</li>
-          <li className='footer-list-top-item'>twitter</li>
-          <li className='footer-list-top-item'>instagram</li>
+          <li className='footer-list-top-item'>
+            <img className='social' src='/images/socials/fb.png' alt='fb-logo' />
+          </li>
+          <li className='footer-list-top-item'>
+            <img src='/images/socials/twitter.png' alt='twitter-logo' />
+          </li>
+          <li className='footer-list-top-item'>
+            <img src='/images/socials/instagram.png' alt='instagram-logo' />
+          </li>
         </ul>
       </div>
       <div className='bottom-half'>

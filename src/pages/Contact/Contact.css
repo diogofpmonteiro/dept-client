@@ -1,30 +1,49 @@
 .contact-container {
   display: flex;
-  justify-content: space-around;
-  padding: 3rem;
+  padding: 60px;
 }
 
 .contact-title {
   text-transform: uppercase;
+  font-weight: 400;
+  font-size: 6rem;
+  width: 30%;
 }
 
 .form {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  width: 70%;
+  margin-top: 50px;
+  padding-left: 40px;
 }
 
 .form-field {
   display: flex;
   flex-direction: column;
   width: 50%;
+  max-width: 50%;
   margin-bottom: 30px;
+}
+
+.form-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .form-input {
   border: none;
   border-bottom: 1px solid black;
   margin-right: 30px;
+  outline: none;
+  padding-top: 20px;
+}
+
+.area {
+  resize: none;
+  padding-top: 120px;
 }
 
 .btn-container {

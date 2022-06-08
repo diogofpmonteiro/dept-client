@@ -40,3 +40,13 @@
   margin: 0;
   margin-bottom: 2rem;
 }
+
+.polygon {
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+.turn {
+  transform: rotate(90deg);
+  transition: 0.5s;
+}

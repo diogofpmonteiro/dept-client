@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./CaseCard.css";
+import Polygon from "../../polygon.svg";
 
 const CaseCard = ({ eachCase }) => {
   const [description, setDescription] = useState(true);
@@ -19,6 +20,7 @@ const CaseCard = ({ eachCase }) => {
       <h3>{eachCase.title} </h3>
       <div>
         <button className='view-case-btn' onClick={toggleDescription}>
+          <img src={Polygon} alt='polygon' className={!description ? "polygon turn" : "polygon"} />
           View Case
         </button>
         <p className={!description ? "show" : "hide"}>{eachCase.description}</p>

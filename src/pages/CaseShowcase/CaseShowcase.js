@@ -40,9 +40,7 @@ const CaseShowcase = () => {
         <button className='loadmore-btn' onClick={showMoreCases}>
           Load More
         </button>
-      ) : (
-        "Hi"
-      )}
+      ) : null}
     </div>
   );
 };
