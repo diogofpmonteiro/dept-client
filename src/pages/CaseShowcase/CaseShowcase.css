@@ -23,6 +23,9 @@
 .select-btn {
   width: fit-content;
   height: 25px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
 }
 
 .case-list {
