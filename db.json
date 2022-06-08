@@ -4,6 +4,7 @@
       "id": 1,
       "imageURL": "http://localhost:3000/images/server/image4.png",
       "company": "Bol.com",
+      "industry": "E-commerce",
       "title": "A Summer island in the Netherlands",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -11,6 +12,7 @@
       "id": 2,
       "imageURL": "http://localhost:3000/images/server/image5.png",
       "company": "Kempen",
+      "industry": "Banking",
       "title": "Not some average banking website",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -18,6 +20,7 @@
       "id": 3,
       "imageURL": "http://localhost:3000/images/server/image6.png",
       "company": "Philips",
+      "industry": "Technology",
       "title": "Beautiful design meets innovative technology",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -25,6 +28,7 @@
       "id": 4,
       "imageURL": "http://localhost:3000/images/server/image7.png",
       "company": "Gemeentemuseum",
+      "industry": "Art",
       "title": "A 100 years of Mandriaan & De Stijl",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -32,6 +36,7 @@
       "id": 5,
       "imageURL": "http://localhost:3000/images/server/image8.png",
       "company": "Florensis",
+      "industry": "E-commerce",
       "title": "Rethinking the entire online ecosystem",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -39,6 +44,7 @@
       "id": 6,
       "imageURL": "http://localhost:3000/images/server/image9.png",
       "company": "Be Lightning",
+      "industry": "Energy",
       "title": "Delivering clarity on a global scale",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -46,6 +52,7 @@
       "id": 7,
       "imageURL": "http://localhost:3000/images/server/image10.png",
       "company": "TUI",
+      "industry": "Tourism",
       "title": "Swipe to find your next holiday destination",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -53,6 +60,7 @@
       "id": 8,
       "imageURL": "http://localhost:3000/images/server/image11.png",
       "company": "Chocomel",
+      "industry": "Food",
       "title": "A campaign for the limited edition letter packs",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -60,6 +68,7 @@
       "id": 9,
       "imageURL": "http://localhost:3000/images/server/image12.png",
       "company": "Microsoft",
+      "industry": "Technology",
       "title": "Tapping into Ireland's unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -67,6 +76,7 @@
       "id": 10,
       "imageURL": "http://localhost:3000/images/server/image13.png",
       "company": "O'Neill",
+      "industry": "E-commerce",
       "title": "Integrating existing content into O'Neills's new e-commerce platform",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -74,6 +84,7 @@
       "id": 11,
       "imageURL": "http://localhost:3000/images/server/image14.png",
       "company": "Bol.com",
+      "industry": "E-commerce",
       "title": "A Summer island in the Netherlands",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -81,6 +92,7 @@
       "id": 12,
       "imageURL": "http://localhost:3000/images/server/image15.png",
       "company": "Kempen",
+      "industry": "Banking",
       "title": "Not some average banking website",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -88,6 +100,7 @@
       "id": 13,
       "imageURL": "http://localhost:3000/images/server/image4.png",
       "company": "Philips",
+      "industry": "Technology",
       "title": "Beautiful design meets innovative technology",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -95,6 +108,7 @@
       "id": 14,
       "imageURL": "http://localhost:3000/images/server/image5.png",
       "company": "Gemeentemuseum",
+      "industry": "Art",
       "title": "A 100 years of Mandriaan & De Stijl",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -102,6 +116,7 @@
       "id": 15,
       "imageURL": "http://localhost:3000/images/server/image6.png",
       "company": "Florensis",
+      "industry": "E-commerce",
       "title": "Rethinking the entire online ecosystem",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -109,6 +124,7 @@
       "id": 16,
       "imageURL": "http://localhost:3000/images/server/image7.png",
       "company": "Be Lightning",
+      "industry": "Energy",
       "title": "Delivering clarity on a global scale",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -116,6 +132,7 @@
       "id": 17,
       "imageURL": "http://localhost:3000/images/server/image8.png",
       "company": "TUI",
+      "industry": "Tourism",
       "title": "Swipe to find your next holiday destination",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -123,6 +140,7 @@
       "id": 18,
       "imageURL": "http://localhost:3000/images/server/image9.png",
       "company": "Chocomel",
+      "industry": "Food",
       "title": "A campaign for the limited edition letter packs",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -130,6 +148,7 @@
       "id": 19,
       "imageURL": "http://localhost:3000/images/server/image10.png",
       "company": "Microsoft",
+      "industry": "Technology",
       "title": "Tapping into Ireland's unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
@@ -137,6 +156,7 @@
       "id": 20,
       "imageURL": "http://localhost:3000/images/server/image11.png",
       "company": "O'Neill",
+      "industry": "E-commerce",
       "title": "Integrating existing content into O'Neills's new e-commerce platform",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     }
@@ -144,67 +164,67 @@
   "clients": [
     {
       "id": 1,
-      "imageURL": "http://localhost:3000/images/server/image33.png"
+      "imageURL": "http://localhost:3000/images/server/nivea.png"
     },
     {
       "id": 2,
-      "imageURL": "http://localhost:3000/images/server/image34.png"
+      "imageURL": "http://localhost:3000/images/server/mona.png"
     },
     {
       "id": 3,
-      "imageURL": "http://localhost:3000/images/server/image35.png"
+      "imageURL": "http://localhost:3000/images/server/transavia.png"
     },
     {
       "id": 4,
-      "imageURL": "http://localhost:3000/images/server/image36.png"
+      "imageURL": "http://localhost:3000/images/server/zalando.png"
     },
     {
       "id": 5,
-      "imageURL": "http://localhost:3000/images/server/image39.png"
+      "imageURL": "http://localhost:3000/images/server/tomtom.png"
     },
     {
       "id": 6,
-      "imageURL": "http://localhost:3000/images/server/image40.png"
+      "imageURL": "http://localhost:3000/images/server/unilever.png"
     },
     {
       "id": 7,
-      "imageURL": "http://localhost:3000/images/server/image41.png"
+      "imageURL": "http://localhost:3000/images/server/adidas.png"
     },
     {
       "id": 8,
-      "imageURL": "http://localhost:3000/images/server/image42.png"
+      "imageURL": "http://localhost:3000/images/server/pathe.png"
     },
     {
       "id": 9,
-      "imageURL": "http://localhost:3000/images/server/image43.png"
+      "imageURL": "http://localhost:3000/images/server/abn.png"
     },
     {
       "id": 10,
-      "imageURL": "http://localhost:3000/images/server/image44.png"
+      "imageURL": "http://localhost:3000/images/server/triumph.png"
     },
     {
       "id": 11,
-      "imageURL": "http://localhost:3000/images/server/image45.png"
+      "imageURL": "http://localhost:3000/images/server/microsoft.png"
     },
     {
       "id": 12,
-      "imageURL": "http://localhost:3000/images/server/image46.png"
+      "imageURL": "http://localhost:3000/images/server/axxio.png"
     },
     {
       "id": 13,
-      "imageURL": "http://localhost:3000/images/server/image47.png"
+      "imageURL": "http://localhost:3000/images/server/nn.png"
     },
     {
       "id": 14,
-      "imageURL": "http://localhost:3000/images/server/image48.png"
+      "imageURL": "http://localhost:3000/images/server/ziggo.png"
     },
     {
       "id": 15,
-      "imageURL": "http://localhost:3000/images/server/image49.png"
+      "imageURL": "http://localhost:3000/images/server/walibi.png"
     },
     {
       "id": 16,
-      "imageURL": "http://localhost:3000/images/server/image50.png"
+      "imageURL": "http://localhost:3000/images/server/klm.png"
     }
   ],
   "highlights": [

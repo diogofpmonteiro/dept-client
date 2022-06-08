@@ -5,9 +5,22 @@ import CaseCard from "../../components/CaseCard/CaseCard";
 const CaseShowcase = () => {
   const [casesData, setCasesData] = useState([]);
   const [visibleCases, setVisibleCases] = useState(10);
+  const [selectedIndustry, setSelectedIndustry] = useState("");
 
   const showMoreCases = () => {
     setVisibleCases((previousValue) => previousValue + 4);
+  };
+
+  const allIndustries = casesData.map((eachCase) => {
+    return eachCase.industry;
+  });
+
+  let filteredIndustries = [...new Set(allIndustries)];
+
+  const searchFilter = (event) => {
+    event.preventDefault();
+
+    console.log(event.target.value);
   };
 
   useEffect(() => {
@@ -25,9 +38,22 @@ const CaseShowcase = () => {
   return (
     <div className='case-showcase-container'>
       {/* // ! use buttons or form with select option? */}
-      <div className='filter-form'>
-        <span>in</span> <button>all industries</button> <span>show me</span> <button>all work</button>
-      </div>
+
+      <form method='get' id='filter' className='filter-form'>
+        <span className='form-text'>in </span>
+        <select name='industries' form='filter' onSelect={searchFilter} className='select-btn'>
+          <option value=''>All industries</option>
+          {filteredIndustries.map((industry) => (
+            <option value=''>{industry}</option>
+          ))}
+        </select>
+        <span className='form-text'>show me</span>
+        <select name='industries' form='filter' className='select-btn'>
+          <option value=''>Alphabetically</option>
+          <option value=''>By most recent</option>
+        </select>
+      </form>
+
       <ul className='case-list'>
         {casesData &&
           casesData.slice(0, visibleCases).map((eachCase) => (

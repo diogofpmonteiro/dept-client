@@ -8,7 +8,21 @@
 }
 
 .filter-form {
+  display: flex;
+  align-items: center;
   align-self: flex-end;
+  padding-right: 50px;
+}
+
+.form-text {
+  font-size: 2.5rem;
+  color: #a3a3a3;
+  margin: 0px 10px;
+}
+
+.select-btn {
+  width: fit-content;
+  height: 25px;
 }
 
 .case-list {

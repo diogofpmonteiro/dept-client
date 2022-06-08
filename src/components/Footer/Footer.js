@@ -8,22 +8,52 @@ const Footer = () => {
           <li className='footer-list-title'>
             <img src='/images/DEPTWhite.png' alt='dept-logo-white' />
           </li>
-          <li className='footer-list-top-item'>Work</li>
-          <li className='footer-list-top-item'>Services</li>
-          <li className='footer-list-top-item'>Stories</li>
-          <li className='footer-list-top-item'>About</li>
-          <li className='footer-list-top-item'>Careers</li>
-          <li className='footer-list-top-item'>Contact</li>
+          <li className='footer-list-top-item'>
+            <a target='blank' className='link' href='/'>
+              Work
+            </a>
+          </li>
+          <li className='footer-list-top-item'>
+            <a target='blank' className='link' href='/'>
+              Services
+            </a>
+          </li>
+          <li className='footer-list-top-item'>
+            <a target='blank' className='link' href='/'>
+              Stories
+            </a>
+          </li>
+          <li className='footer-list-top-item'>
+            <a target='blank' className='link' href='/'>
+              About
+            </a>
+          </li>
+          <li className='footer-list-top-item'>
+            <a target='blank' className='link' href='/'>
+              Careers
+            </a>
+          </li>
+          <li className='footer-list-top-item'>
+            <a target='blank' className='link' href='/'>
+              Contact
+            </a>
+          </li>
         </ul>
         <ul className='footer-list'>
           <li className='footer-list-top-item'>
-            <img className='social' src='/images/socials/fb.png' alt='fb-logo' />
+            <a target='blank' href='https://www.facebook.com/DeptAgency/'>
+              <img className='social' src='/images/socials/fb.png' alt='fb-logo' />
+            </a>
           </li>
           <li className='footer-list-top-item'>
-            <img src='/images/socials/twitter.png' alt='twitter-logo' />
+            <a target='blank' href='https://twitter.com/deptagency'>
+              <img src='/images/socials/twitter.png' alt='twitter-logo' />
+            </a>
           </li>
           <li className='footer-list-top-item'>
-            <img src='/images/socials/instagram.png' alt='instagram-logo' />
+            <a target='blank' href='https://www.instagram.com/deptagency/'>
+              <img src='/images/socials/instagram.png' alt='instagram-logo' />
+            </a>
           </li>
         </ul>
       </div>
