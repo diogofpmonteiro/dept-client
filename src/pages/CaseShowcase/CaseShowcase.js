@@ -14,8 +14,6 @@ const CaseShowcase = () => {
 
   let filteredIndustries = [...new Set(allIndustries)];
 
-  // console.log(casesData.filter((eachCase) => eachCase.industry === selectedIndustry));
-
   const searchFilter = (event) => {
     setSelectedIndustry(event.target.value);
   };
@@ -40,7 +38,7 @@ const CaseShowcase = () => {
     } else {
       setFiltered(true);
     }
-  }, [selectedIndustry]);
+  }, [selectedIndustry, filteredIndustries.length]);
 
   return (
     <div className='case-showcase-container'>
@@ -73,6 +71,7 @@ const CaseShowcase = () => {
                   <CaseCard eachCase={eachCase} />
                 </li>
               ))}
+
         {visibleCases <= casesData.length ? (
           <button className='loadmore-btn' onClick={showMoreCases}>
             Load More
