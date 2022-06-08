@@ -1,9 +1,15 @@
+import "./LandingPage.css";
+import Header from "./../../components/Header/Header";
+
 const LandingPage = () => {
   return (
-    <div>
-      <h1>Work</h1>
-      <div>
-        <a href='#a'>View Case</a>
+    <div className='landing-container'>
+      <Header />
+      <div className='landing-title'>Work</div>
+      <div className='btn-container'>
+        <button type='submit' className='view-btn'>
+          View Case
+        </button>
       </div>
     </div>
   );

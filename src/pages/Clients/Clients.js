@@ -26,8 +26,7 @@ const Clients = () => {
         {clientList &&
           clientList.map((eachClient) => (
             <li className='clients-list-item' key={eachClient.id}>
-              <img src={eachClient.imageURL} alt='client-img' loading='lazy' />
-              {eachClient.id}
+              <img className='clients-img' src={eachClient.imageURL} alt='client-img' loading='lazy' />
             </li>
           ))}
       </ul>

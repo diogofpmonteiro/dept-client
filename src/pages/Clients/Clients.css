@@ -10,20 +10,31 @@
   font-size: 70px;
   text-transform: uppercase;
   font-weight: 400;
+  margin: 0;
 }
 
 .clients-text {
   width: 50%;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .clients-list {
   display: flex;
   width: 50%;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  text-align: center;
   list-style: none;
+  padding: 0;
 }
 
 .clients-list-item {
   width: 25%;
+}
+
+.clients-img {
+  max-width: 100%;
+  margin: 10px;
 }

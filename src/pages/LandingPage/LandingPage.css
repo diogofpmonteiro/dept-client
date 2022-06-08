@@ -1,0 +1,58 @@
+.landing-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.landing-container::before {
+  content: "";
+  background: url("/public/images/landing.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  width: auto;
+  height: auto;
+}
+
+.landing-title {
+  width: 713px;
+  height: 573px;
+  left: 100px;
+  top: 0px;
+
+  position: absolute;
+
+  font-family: "Teko";
+  font-weight: 400;
+  font-size: 35rem;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.view-btn {
+  display: flex;
+  padding: 40px 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 200;
+  text-transform: uppercase;
+
+  position: absolute;
+  height: 55px;
+  right: 50px;
+  bottom: 50px;
+
+  background: #0c0c0c;
+  color: white;
+  border: none;
+}

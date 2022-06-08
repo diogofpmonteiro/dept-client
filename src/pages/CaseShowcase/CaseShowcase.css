@@ -1,4 +1,14 @@
 .case-showcase-container {
+  margin: 50px auto;
+
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-bottom: 2px solid #dddddd;
+}
+
+.filter-form {
+  align-self: flex-end;
 }
 
 .case-list {
@@ -9,4 +19,14 @@
 
 .case-list-item {
   width: 50%;
+}
+
+.loadmore-btn {
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px 40px;
+  border: none;
+
+  font-family: "Teko", sans-serif;
+  font-size: 1.1rem;
 }

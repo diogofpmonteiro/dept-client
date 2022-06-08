@@ -24,10 +24,10 @@ const Footer = () => {
           <li className='footer-list-bottom-item'>Chamber of Commerce: 63464101</li>
           <li className='footer-list-bottom-item'>VAT: NL 8552.47.502.B01</li>
           <li className='footer-list-bottom-item'>Terms and conditions</li>
+        </ul>
 
-          <ul className='footer-list'>
-            <li className='footer-list-bottom-item'>© 2018 Dept Agency</li>
-          </ul>
+        <ul className='footer-list'>
+          <li className='footer-list-bottom-item1'>© 2018 Dept Agency</li>
         </ul>
       </div>
     </div>

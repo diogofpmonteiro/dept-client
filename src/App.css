@@ -1,0 +1,13 @@
+.App {
+}
+
+.to-top-btn {
+  background-color: #000000;
+  font-size: 1rem;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  font-family: "Teko", sans-serif;
+  position: absolute;
+  right: 0;
+}

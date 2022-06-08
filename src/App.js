@@ -5,17 +5,25 @@ import LandingPage from "./pages/LandingPage/LandingPage";
 import Clients from "./pages/Clients/Clients";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
 
 function App() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className='App'>
-      <Header />
       <LandingPage />
       <CaseShowcase />
       <CaseHighlight />
       <Clients />
       <Contact />
+      <button onClick={scrollToTop} className='to-top-btn'>
+        Top
+      </button>
       <Footer />
     </div>
   );

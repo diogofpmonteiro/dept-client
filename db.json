@@ -2,70 +2,140 @@
   "cases": [
     {
       "id": 1,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image4.png",
       "company": "Bol.com",
       "title": "A Summer island in the Netherlands",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "id": 2,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image5.png",
       "company": "Kempen",
       "title": "Not some average banking website",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "id": 3,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image6.png",
       "company": "Philips",
       "title": "Beautiful design meets innovative technology",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "id": 4,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image7.png",
       "company": "Gemeentemuseum",
       "title": "A 100 years of Mandriaan & De Stijl",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "id": 5,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image8.png",
       "company": "Florensis",
       "title": "Rethinking the entire online ecosystem",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "id": 6,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image9.png",
       "company": "Be Lightning",
       "title": "Delivering clarity on a global scale",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "id": 7,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image10.png",
       "company": "TUI",
       "title": "Swipe to find your next holiday destination",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "id": 8,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image11.png",
       "company": "Chocomel",
       "title": "A campaign for the limited edition letter packs",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "id": 9,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image12.png",
       "company": "Microsoft",
       "title": "Tapping into Ireland's unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "id": 10,
-      "imageURL": "",
+      "imageURL": "http://localhost:3000/images/server/image13.png",
+      "company": "O'Neill",
+      "title": "Integrating existing content into O'Neills's new e-commerce platform",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 11,
+      "imageURL": "http://localhost:3000/images/server/image14.png",
+      "company": "Bol.com",
+      "title": "A Summer island in the Netherlands",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 12,
+      "imageURL": "http://localhost:3000/images/server/image15.png",
+      "company": "Kempen",
+      "title": "Not some average banking website",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 13,
+      "imageURL": "http://localhost:3000/images/server/image4.png",
+      "company": "Philips",
+      "title": "Beautiful design meets innovative technology",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 14,
+      "imageURL": "http://localhost:3000/images/server/image5.png",
+      "company": "Gemeentemuseum",
+      "title": "A 100 years of Mandriaan & De Stijl",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 15,
+      "imageURL": "http://localhost:3000/images/server/image6.png",
+      "company": "Florensis",
+      "title": "Rethinking the entire online ecosystem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 16,
+      "imageURL": "http://localhost:3000/images/server/image7.png",
+      "company": "Be Lightning",
+      "title": "Delivering clarity on a global scale",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 17,
+      "imageURL": "http://localhost:3000/images/server/image8.png",
+      "company": "TUI",
+      "title": "Swipe to find your next holiday destination",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 18,
+      "imageURL": "http://localhost:3000/images/server/image9.png",
+      "company": "Chocomel",
+      "title": "A campaign for the limited edition letter packs",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 19,
+      "imageURL": "http://localhost:3000/images/server/image10.png",
+      "company": "Microsoft",
+      "title": "Tapping into Ireland's unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 20,
+      "imageURL": "http://localhost:3000/images/server/image11.png",
       "company": "O'Neill",
       "title": "Integrating existing content into O'Neills's new e-commerce platform",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
@@ -74,67 +144,83 @@
   "clients": [
     {
       "id": 1,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image33.png"
     },
     {
       "id": 2,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image34.png"
     },
     {
       "id": 3,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image35.png"
     },
     {
       "id": 4,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image36.png"
     },
     {
       "id": 5,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image39.png"
     },
     {
       "id": 6,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image40.png"
     },
     {
       "id": 7,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image41.png"
     },
     {
       "id": 8,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image42.png"
     },
     {
       "id": 9,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image43.png"
     },
     {
       "id": 10,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image44.png"
     },
     {
       "id": 11,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image45.png"
     },
     {
       "id": 12,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image46.png"
     },
     {
       "id": 13,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image47.png"
     },
     {
       "id": 14,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image48.png"
     },
     {
       "id": 15,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image49.png"
     },
     {
       "id": 16,
-      "imageURL": ""
+      "imageURL": "http://localhost:3000/images/server/image50.png"
+    }
+  ],
+  "highlights": [
+    {
+      "id": 1,
+      "imageURL": "http://localhost:3000/images/server/image15.png",
+      "company": "Microsoft",
+      "title": "Tapping into Ireland's unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 2,
+      "imageURL": "http://localhost:3000/images/server/image14.png",
+      "company": "O'Neill",
+      "title": "Integrating existing content into O'Neills's new e-commerce platform",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     }
   ]
 }
