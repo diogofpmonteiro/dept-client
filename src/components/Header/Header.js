@@ -1,7 +1,7 @@
 import "./Header.css";
-import HeaderToggle from "./headertoggle.svg";
+import headerToggle from "./headertoggle.svg";
 
-const Header = () => {
+const Header = ({ toggleMenu }) => {
   return (
     <ul className='header'>
       <li className='header-logo'>
@@ -10,7 +10,9 @@ const Header = () => {
       <ul className='header-menu'>
         <li className='header-item'>Menu</li>
         <li className='header-item'>
-          <img src={HeaderToggle} alt='head-toggle' className='header-toggle' />
+          <button onClick={toggleMenu} className='toggle-btn'>
+            <img src={headerToggle} alt='menu-toggle' className='header-toggle' />
+          </button>
         </li>
       </ul>
     </ul>

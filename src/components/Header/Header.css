@@ -40,3 +40,9 @@
   height: 30px;
   margin-top: 5px;
 }
+
+.toggle-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -23,12 +23,9 @@
 }
 
 .landing-title {
-  width: 713px;
-  height: 573px;
-  left: 100px;
-  top: 0px;
-
   position: absolute;
+  left: 100px;
+  top: 100px;
 
   font-family: "Teko";
   font-weight: 400;
