@@ -4,7 +4,7 @@ import headerToggle from "./headertoggle.svg";
 const Header = ({ toggleMenu }) => {
   return (
     <ul className='header'>
-      <li className='header-logo'>
+      <li className='dept-logo-container'>
         <img src='/images/DEPTBlack.png' alt='dept-logo-black' className='dept-logo' />
       </li>
       <ul className='header-menu'>

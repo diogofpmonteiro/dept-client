@@ -129,6 +129,8 @@
 
 /* MEDIA QUERIES */
 
+/* * MOBILE */
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .country-list {
     display: none;
@@ -157,7 +159,8 @@
   }
 
   .menu-top-box {
-    margin: 20px 15px;
+    margin: 20px 5px;
+    margin-right: 15px;
   }
 
   .dept-logo-white {
@@ -167,5 +170,13 @@
   .menu-toggler {
     width: 15px;
     height: 15px;
+  }
+}
+
+/* * TABLET */
+
+@media screen and (min-width: 760px) and (max-width: 1023px) {
+  .menu-top-box {
+    margin: 30px 50px;
   }
 }

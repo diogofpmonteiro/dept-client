@@ -59,3 +59,35 @@
   color: white;
   text-transform: uppercase;
 }
+
+/* MEDIA QUERIES  */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 10px;
+  }
+
+  .contact-title {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .form {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .form-field {
+    padding-left: 30px;
+    width: 90%;
+    max-width: 100%;
+  }
+  .btn-container {
+    text-align: center;
+  }
+}

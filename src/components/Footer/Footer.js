@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <ul className='footer-list'>
+        <ul className='footer-list '>
           <li className='footer-list-top-item'>
             <a target='blank' href='https://www.facebook.com/DeptAgency/'>
               <img className='social' src='/images/socials/fb.png' alt='fb-logo' />

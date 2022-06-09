@@ -6,11 +6,10 @@ const LandingPage = ({ toggleMenu }) => {
     <div className='landing-container'>
       <Header toggleMenu={toggleMenu} />
       <div className='landing-title'>Work</div>
-      <div className='btn-container'>
-        <button type='submit' className='view-btn'>
-          View Case
-        </button>
-      </div>
+
+      <button type='submit' className='view-btn'>
+        View Case
+      </button>
     </div>
   );
 };

@@ -7,7 +7,7 @@
 }
 
 .clients-title {
-  font-size: 70px;
+  font-size: 5rem;
   text-transform: uppercase;
   font-weight: 400;
   margin: 0;
@@ -42,4 +42,35 @@
 .clients-img {
   max-width: 100%;
   margin: 30px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .clients-section {
+  }
+
+  .clients-title {
+    font-size: 2rem;
+  }
+
+  .clients-text {
+    font-size: 0.7rem;
+    line-height: 15px;
+    width: 100%;
+  }
+
+  .clients-list {
+    width: 100%;
+  }
+
+  .clients-list-item {
+    width: 50%;
+  }
+
+  .clients-img {
+    max-width: 100%;
+    width: 70px;
+    margin: 20px auto;
+  }
 }

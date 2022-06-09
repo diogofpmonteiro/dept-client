@@ -3,7 +3,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   height: 100vh;
+  width: 100%;
 }
 
 .landing-container::before {
@@ -11,15 +13,14 @@
   background: url("/public/images/landing.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-
-  width: auto;
-  height: auto;
 }
 
 .landing-title {
@@ -52,4 +53,36 @@
   background: #0c0c0c;
   color: white;
   border: none;
+  overflow: hidden;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .landing-container {
+    height: 45vh;
+  }
+
+  .landing-container::before {
+    background-attachment: local;
+    background-size: contain;
+  }
+
+  .landing-title {
+    font-size: 8rem;
+    left: 20px;
+    top: 75px;
+  }
+
+  .view-btn {
+    width: 90%;
+    padding: 0;
+    margin: auto;
+
+    right: 0;
+    bottom: 0;
+
+    left: 0;
+    font-size: 0.8rem;
+  }
 }

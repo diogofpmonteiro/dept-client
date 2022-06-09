@@ -23,9 +23,7 @@ const Contact = () => {
 
   return (
     <div className='contact-container'>
-      <h1 className='contact-title'>
-        Question? <br /> We are here to help!
-      </h1>
+      <h1 className='contact-title'>Question? We are here to help!</h1>
       <form action='submit' className='form' onSubmit={handleSubmitForm}>
         <div className='form-field'>
           <label className='form-label' htmlFor='name'>

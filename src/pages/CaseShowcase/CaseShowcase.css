@@ -47,3 +47,25 @@
   font-family: "Teko", sans-serif;
   font-size: 1.1rem;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .case-showcase-container {
+    margin: 20px auto;
+  }
+  .filter-form {
+    margin-bottom: 20px;
+  }
+
+  .form-text {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .case-list {
+    padding: 0;
+  }
+
+  .case-list-item {
+    width: 100%;
+  }
+}

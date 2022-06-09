@@ -21,7 +21,7 @@ const CaseHighlight = () => {
       <div className='title-container'>
         <p className='case-highlight-title'>
           "Dept helped us tell our story through a bold new identity and a robust online experience. To the tone of 60% growth in online
-          bookings in just one month
+          bookings in just one month"
         </p>
         <p className='ceo-name'>Mattijs Ten Brink - CEO, Transavia</p>
       </div>

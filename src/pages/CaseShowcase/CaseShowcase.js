@@ -41,7 +41,7 @@ const CaseShowcase = () => {
   }, [selectedIndustry, filteredIndustries.length]);
 
   return (
-    <div className='case-showcase-container'>
+    <section className='case-showcase-container'>
       <form method='get' id='filter' className='filter-form'>
         <span className='form-text'>in </span>
         <select name='industries' form='filter' value={selectedIndustry} onChange={searchFilter} className='select-btn'>
@@ -78,7 +78,7 @@ const CaseShowcase = () => {
           </button>
         ) : null}
       </ul>
-    </div>
+    </section>
   );
 };
 
