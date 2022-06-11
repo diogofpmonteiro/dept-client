@@ -7,6 +7,7 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState(undefined);
   const [successMessage, setSuccessMessage] = useState(undefined);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleNameInput = (event) => setName(event.target.value);
 
@@ -16,6 +17,7 @@ const Contact = () => {
   const handleFormSubmit = async (event) => {
     try {
       event.preventDefault();
+      setIsLoading(true);
 
       const requestBody = { name, email, message };
 
@@ -24,16 +26,16 @@ const Contact = () => {
         body: JSON.stringify(requestBody),
         headers: { "Content-type": "application/json; charset=UTF-8" },
       });
-      const data = await result.json();
+      await result.json();
 
-      // console.log(data);
       setSuccessMessage("Message sent successfully! Thank you for contacting us.");
       setName("");
       setEmail("");
       setMessage("");
       setTimeout(() => {
         setSuccessMessage(undefined);
-      }, 3000);
+        setIsLoading(false);
+      }, 2000);
     } catch (error) {
       setErrorMessage("Something went wrong:", error);
     }
@@ -47,7 +49,7 @@ const Contact = () => {
           <label className='form-label' htmlFor='name'>
             Name
           </label>
-          <input className='form-input' type='text' name='name' value={name} onChange={handleNameInput} />
+          <input className='form-input' type='text' name='name' value={name} onChange={handleNameInput} required />
         </div>
 
         <div className='form-field'>
@@ -61,11 +63,11 @@ const Contact = () => {
           <label className='form-label' htmlFor='message'>
             Message
           </label>
-          <textarea className='form-input area' type='text' name='message' value={message} onChange={handleMessageInput} />
+          <textarea className='form-input area' type='text' name='message' value={message} onChange={handleMessageInput} required />
         </div>
         <div className='btn-container'>
-          <button type='submit' className='form-btn'>
-            Send
+          <button type='submit' className='form-btn' disabled={isLoading}>
+            {isLoading ? "Loading..." : "Send"}
           </button>
 
           {/* Success message display, if it's sent successfully */}
