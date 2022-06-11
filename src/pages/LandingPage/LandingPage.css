@@ -42,7 +42,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.3rem;
-  font-weight: 200;
+  font-weight: 700;
   text-transform: uppercase;
 
   position: absolute;
@@ -60,7 +60,7 @@
 
 @media (min-device-width: 320px) and (max-width: 480px) {
   .landing-container {
-    height: 45vh;
+    height: 55vh;
   }
 
   .landing-container::before {
@@ -71,18 +71,36 @@
   .landing-title {
     font-size: 8rem;
     left: 20px;
-    top: 75px;
+    top: 100px;
   }
 
   .view-btn {
-    width: 90%;
+    width: 95%;
     padding: 0;
     margin: auto;
 
     right: 0;
-    bottom: 0;
-
+    bottom: 0px;
     left: 0;
+
     font-size: 0.8rem;
+  }
+}
+
+@media (min-device-width: 760px) and (max-width: 1024px) {
+  .landing-container {
+    height: 100vh;
+  }
+
+  .landing-title {
+    font-size: 18rem;
+  }
+
+  .landing-container::before {
+    background-size: contain;
+  }
+
+  .view-btn {
+    bottom: 150px;
   }
 }

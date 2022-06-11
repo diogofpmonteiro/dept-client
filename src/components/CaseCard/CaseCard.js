@@ -24,7 +24,9 @@ const CaseCard = ({ eachCase }) => {
             <img src={Polygon} alt='polygon' className={!description ? "polygon turn" : "polygon"} />
             View Case
           </button>
-          <p className={!description ? "show" : "hide"}>{eachCase.description}</p>
+          <p className={!description ? "show" : "hide"}>
+            {eachCase.description}. View full case <a href='/'>here</a>.
+          </p>
         </div>
       </div>
     </div>

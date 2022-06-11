@@ -47,21 +47,19 @@
 /* MEDIA QUERIES */
 
 @media (min-device-width: 320px) and (max-device-width: 480px) {
-  .clients-section {
-  }
-
   .clients-title {
     font-size: 2rem;
   }
 
   .clients-text {
-    font-size: 0.7rem;
-    line-height: 15px;
+    font-size: 1.1rem;
+    line-height: 23px;
     width: 100%;
   }
 
   .clients-list {
     width: 100%;
+    padding: 0;
   }
 
   .clients-list-item {
@@ -72,5 +70,19 @@
     max-width: 100%;
     width: 70px;
     margin: 20px auto;
+  }
+
+  #client6,
+  #client7,
+  #client8,
+  #client9,
+  #client10,
+  #client11,
+  #client12,
+  #client13,
+  #client14,
+  #client15,
+  #client16 {
+    display: none;
   }
 }

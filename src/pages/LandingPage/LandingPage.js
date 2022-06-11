@@ -8,7 +8,9 @@ const LandingPage = ({ toggleMenu }) => {
       <div className='landing-title'>Work</div>
 
       <button type='submit' className='view-btn'>
-        View Case
+        <a href='/' className='link'>
+          View Case
+        </a>
       </button>
     </div>
   );

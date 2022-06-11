@@ -24,6 +24,7 @@
   padding: 40px 0px;
 
   font-size: 1rem;
+  font-weight: 400;
 }
 
 .footer-list {
@@ -86,7 +87,7 @@
     flex-direction: column;
     align-items: flex-start;
 
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
 
   .footer-list-bottom-item {
@@ -96,5 +97,20 @@
   .footer-list-bottom-item1 {
     margin-top: 20px;
     line-height: 10px;
+  }
+}
+
+@media (min-device-width: 760px) and (max-width: 1023px) {
+  .footer-list {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .bottom-half {
+    font-size: 0.8rem;
+  }
+
+  .row {
+    flex-direction: row;
   }
 }

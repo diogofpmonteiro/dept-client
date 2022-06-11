@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <div className='top-half'>
-        <ul className='footer-list'>
+        <ul className='footer-list row'>
           <li className='footer-list-title'>
             <img src='/images/DEPTWhite.png' alt='dept-logo-white' />
           </li>
@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <ul className='footer-list '>
+        <ul className='footer-list'>
           <li className='footer-list-top-item'>
             <a target='blank' href='https://www.facebook.com/DeptAgency/'>
               <img className='social' src='/images/socials/fb.png' alt='fb-logo' />

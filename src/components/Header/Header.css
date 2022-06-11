@@ -52,11 +52,22 @@
   .header {
     border: none;
   }
+
   .dept-logo-container {
     margin: 20px 0px;
   }
 
   .dept-logo {
     width: 55px;
+  }
+}
+
+@media (min-device-width: 760px) and (max-width: 1024px) {
+  .header {
+    border: none;
+  }
+
+  .dept-logo-container {
+    margin: 30px 0px;
   }
 }

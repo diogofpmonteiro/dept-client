@@ -24,8 +24,8 @@ const Clients = () => {
       </p>
       <ul className='clients-list'>
         {clientList &&
-          clientList.map((eachClient) => (
-            <li className='clients-list-item' key={eachClient.id}>
+          clientList.map((eachClient, index) => (
+            <li className='clients-list-item' key={eachClient.id} id={`client${index}`}>
               <img className='clients-img' src={eachClient.imageURL} alt='client-img' loading='lazy' />
             </li>
           ))}
